@@ -1,0 +1,42 @@
+.wrapper {
+    /*padding: 20px;*/
+    width: 100%;
+    margin: 0 auto;
+    /*background-color: #F89900;*/
+    /*background-color: #FABD44;*/
+    background-color: #F9A300;
+}
+.btn {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: 0;
+}
+.btn:hover {
+    background-color: Transparent;
+    color: white;
+}
+.pillBorder {
+    position: relative;
+    border: 3px solid;
+    display: inline-block;
+    background-color: Transparent;
+    margin: 2px;
+    border-radius: 2em; /* These get the rounded corners*/
+}
+
+#searchBox {
+    margin-left: 50%;
+    display: inline-block;
+    position: relative;
+    border: none;
+    /*background-color: lightgrey;*/
+    background-color: Transparent;
+    overflow: scroll;
+    outline: 0;
+}
+#searchBox: focus {
+    color: white;
+}
