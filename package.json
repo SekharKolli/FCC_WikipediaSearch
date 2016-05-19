@@ -1,0 +1,29 @@
+{
+  "name": "fccwikipediasearch",
+  "version": "1.0.0",
+  "description": "Searches the Wikipedia site and displays results",
+  "scripts": {
+    "awesome": "echo \"It is cool that you are using this technique\" && exit 0",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SekharKolli/FCC_WikipediaSearch.git"
+  },
+  "keywords": [
+    "wikipedia",
+    "search",
+    "sekhar",
+    "kolli"
+  ],
+  "author": "sekhar kolli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SekharKolli/FCC_WikipediaSearch/issues"
+  },
+  "homepage": "https://github.com/SekharKolli/FCC_WikipediaSearch#readme",
+  "dependencies": {
+    "lite-server": "^2.2.0"
+  }
+}

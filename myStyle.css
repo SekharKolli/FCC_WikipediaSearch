@@ -1,11 +1,22 @@
+* {box-sizing: border-box;}
+
 .wrapper {
     /*padding: 20px;*/
     width: 100%;
     margin: 0 auto;
     /*background-color: #F89900;*/
     /*background-color: #FABD44;*/
-    background-color: #F9A300;
+    background-color: #7DB1B1;
+     /*Orange F9A300*/
 }
+.fa-search {
+    transition: all .5s;
+}
+
+.fa-search:hover {
+  transform: scale(1.7,1.7);
+}
+
 .btn {
     background-color: Transparent;
     background-repeat: no-repeat;
@@ -18,6 +29,11 @@
     background-color: Transparent;
     color: white;
 }
+
+.btn-default:hover{
+  border-color: none;
+}
+
 .pillBorder {
     position: relative;
     border: 3px solid;
@@ -25,18 +41,63 @@
     background-color: Transparent;
     margin: 2px;
     border-radius: 2em; /* These get the rounded corners*/
+    padding-left: 20px;
+    padding-right: 20px;
 }
-
-#searchBox {
-    margin-left: 50%;
+#searchIcon{
+  position: relative;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: right;
+  margin: 2px;
+  display: inline-block;
+  /*color: red;*/
+}
+.pillBorder #searchBox {
+    /*margin-left: 50%;*/
     display: inline-block;
     position: relative;
-    border: none;
-    /*background-color: lightgrey;*/
+    border: 2px;
+    background-color: lightgrey;
     background-color: Transparent;
     overflow: scroll;
     outline: 0;
+    left: 15px;
+    /*top: 5px;*/
 }
 #searchBox: focus {
     color: white;
+}
+
+.contentTitle, .contentText {
+  padding: 5px;
+  margin: 0;
+}
+
+.contentTitle {
+  position: relative;
+}
+
+.content {
+  border: 1px solid grey;
+  margin: 10px;
+  margin-top: 1.5em;
+  /*padding: 30px;*/
+  border-left: 9px solid #2ABA66;
+  background-color: #F5F7FA; #E6E9ED;
+  border-radius: 3px;
+  border-bottom-left-radius:0;
+  border-top-left-radius:0;
+  position: relative;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 0 rgb(0,0,0);
+  transition: all .5s;
+}
+
+.content:hover {
+  top: -10px;
+  left: -3px;
+  box-shadow: 3px 10px 10px rgb(100,100,100);
 }
